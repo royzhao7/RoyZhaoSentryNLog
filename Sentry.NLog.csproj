@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
+    <PackageTags>$(PackageTags);Logging;NLog</PackageTags>
+    <PackageId>RoyZhao.Sentry.NLog</PackageId>
+    <AssemblyName>Sentry.NLog</AssemblyName>
+    <RootNamespace>Sentry.NLog</RootNamespace>
+    <Description>Official NLog integration for Sentry - I can not wait for NLog4.7.2</Description>
+    <Authors>Roy.Zhao</Authors>
+    <Company>EssilorChina</Company>
+    <Product>RoyZhao.Sentry.NLog</Product>
+    <PackageReleaseNotes>I can not wait for NLog4.7.2 ,so I modify open source code and update Nlog nuget :)</PackageReleaseNotes>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="NLog" Version="4.7.2" />
+    <PackageReference Include="Sentry" Version="2.1.3" />
+  </ItemGroup>
+
+</Project>
