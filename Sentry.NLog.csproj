@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
-    <PackageTags>$(PackageTags);Logging;NLog</PackageTags>
+    <PackageTags>;Logging;NLog;Sentry;</PackageTags>
     <PackageId>RoyZhao.Sentry.NLog</PackageId>
     <AssemblyName>Sentry.NLog</AssemblyName>
     <RootNamespace>Sentry.NLog</RootNamespace>
@@ -10,12 +10,16 @@
     <Authors>Roy.Zhao</Authors>
     <Company>EssilorChina</Company>
     <Product>RoyZhao.Sentry.NLog</Product>
-    <PackageReleaseNotes>I can not wait for NLog4.7.2 ,so I modify open source code and update Nlog nuget :)</PackageReleaseNotes>
+    <PackageReleaseNotes>Intergration with nuget package system.data.sqlclient
+
+so you never need to download system.data.sqlclient again,Great!</PackageReleaseNotes>
+    <Version>1.0.1</Version>
   </PropertyGroup>
   
   <ItemGroup>
     <PackageReference Include="NLog" Version="4.7.2" />
     <PackageReference Include="Sentry" Version="2.1.3" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.1" />
   </ItemGroup>
 
 </Project>
