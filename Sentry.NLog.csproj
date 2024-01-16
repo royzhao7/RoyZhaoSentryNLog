@@ -19,7 +19,7 @@ so you never need to download system.data.sqlclient again,Great!</PackageRelease
   <ItemGroup>
     <PackageReference Include="NLog" Version="4.7.2" />
     <PackageReference Include="Sentry" Version="2.1.3" />
-    <PackageReference Include="System.Data.SqlClient" Version="4.8.1" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
   </ItemGroup>
 
 </Project>
